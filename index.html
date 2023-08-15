@@ -1,0 +1,64 @@
+<html>
+<head>
+<style>
+#main{
+height:186px;
+width:1000px;
+border:1px solid;
+margin:0 auto;
+display:flex;
+justify-content:space-around;
+}
+.block{
+height:186px;
+width:315px;
+border:1px solid;
+background-image:url("images/map.png");
+background-repeat:no-repeat;
+background-size:cover;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+}
+#country1,#country2,#country3{
+height:35px;
+background-color:blue;
+text-align:center;
+color:white;
+}
+h2{
+text-align:center;
+}
+.btn{
+background-color:blue;
+color:white;
+padding:10 40;
+border:none;
+outline:none;
+cursor:pointer;
+border-radius:6px;
+}
+</style>
+</head>
+<body>
+<div id="main">
+<div class="block">
+
+<div id="country1" style="align:center">India</div>
+<h2 id="t1"></h2>
+<input type="button"  class="btn" value="Get&nbsp;More&nbsp;about&nbsp;India" onclick="a()"/>
+</div>
+<div class="block">
+<div id="country2" style="align:center">United States</div>
+<h2 id="t2" ></h2>
+<input type="button" class="btn" value="Get&nbsp;More&nbsp;about&nbsp;United&nbsp;States" onclick="b()"/>
+</div>
+<div class="block">
+<div id="country3" style="align:center">China</div>
+<h2 id="t3"></h2>
+<input type="button" class="btn" value="Get&nbsp;more&nbsp;about&nbsp;China" onclick="c()"/>
+</div>
+</div>
+<script rel="javascript" type="text/javascript" src="JS/index.js"></script>
+</body>
+</html>
